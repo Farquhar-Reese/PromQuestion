@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Prom Question</h2>
+
+<p>Click the button below...</p>
+
+<button onclick="displayText()">Click Me!</button>
+
+<div id="textField" style="display: none;">
+  Lizzy, will you go to prom with me?
+</div>
+
+</body>
+<script>
+function displayText() {
+  var text = document.getElementById("textField");
+  text.style.display = "block";
+}
+</script>
+</html>
