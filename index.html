@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h2>Prom Question</h2>
-
-<p>Click the button below...</p>
-
-<button onclick="displayText()">Click Me!</button>
-
-<div id="textField" style="display: none;">
-  Iizzy, will you go to prom with me?
-</div>
-
+  <body style="background-color: pink;">
+<div id="promPosal" style="color: black;"></div>
 </body>
 <script>
-function displayText() {
-  var text = document.getElementById("textField");
-  text.style.display = "block";
-}
+
+  var myQuestion4u= "Izzy, will you go to prom with me?";
+
+  var p= document.getElementById("promPosal");
+  p.innerHTML = myQuestion4u;
 </script>
 </html>
